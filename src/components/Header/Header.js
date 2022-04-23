@@ -13,7 +13,7 @@ export default function Header() {
           />
         </figure>
         <div className="identity">
-          <h1 className="headerName"> Funmilola Alice Adeniran </h1>
+          <h1 className="headerName"> Funmilola Adeniran </h1>
           <h2 className="headerTitle">Frontend Developer</h2>
         </div>
       </header>
