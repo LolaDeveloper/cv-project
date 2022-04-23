@@ -1,0 +1,41 @@
+.Header .App-header {
+  display: flex;
+  align-items: center;
+  background: #2c2c2c;
+  height: 250px;
+
+  padding: 30px;
+}
+.Header .wrapper {
+  background: linear-gradient(45deg, #7f30cb 0%, #01dcba 100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header .headerImage {
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Header .identity {
+  margin-left: 15px;
+}
+.Header .headerName {
+  font-size: 24px;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+.Header .headerTitle {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: linear-gradient(142.02deg, #01dcba 0%, #fa1bf2 185.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
